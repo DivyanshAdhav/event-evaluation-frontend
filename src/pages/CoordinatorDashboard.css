@@ -1,0 +1,177 @@
+/* .coordinator-page{
+min-height:100vh;
+background:linear-gradient(135deg,#1e3a8a,#2563eb);
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+.dashboard-container{
+width:100%;
+max-width:900px;
+background:white;
+border-radius:10px;
+padding:40px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.dashboard-header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:30px;
+}
+
+.dashboard-header h1{
+font-size:26px;
+}
+
+.logout-btn{
+background:#ef4444;
+color:white;
+border:none;
+padding:8px 16px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.logout-btn:hover{
+background:#dc2626;
+}
+
+.dashboard-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
+
+.dashboard-card{
+background:#f8fafc;
+padding:25px;
+border-radius:10px;
+text-align:center;
+border:1px solid #e5e7eb;
+}
+
+.dashboard-card h2{
+margin-bottom:10px;
+}
+
+.dashboard-card p{
+font-size:14px;
+color:#555;
+margin-bottom:15px;
+}
+
+.dashboard-btn{
+background:#2563eb;
+color:white;
+border:none;
+padding:10px 16px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.dashboard-btn:hover{
+background:#1e40af;
+} */
+
+/* Mobile */
+
+/* @media(max-width:768px){
+
+.dashboard-grid{
+grid-template-columns:1fr;
+}
+
+} */
+
+.coordinator-page{
+min-height:100vh;
+background:linear-gradient(135deg,#1e3a8a,#2563eb);
+display:flex;
+justify-content:center;
+align-items:center;
+padding:20px;
+}
+
+.coordinator-container{
+width:100%;
+max-width:900px;
+background:white;
+border-radius:12px;
+padding:40px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+margin-bottom:25px;
+}
+
+.event-title{
+text-align:center;
+margin-bottom:30px;
+color:#333;
+}
+
+.logout-btn{
+background:#ef4444;
+color:white;
+border:none;
+padding:8px 16px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.logout-btn:hover{
+background:#dc2626;
+}
+
+.dashboard-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:20px;
+}
+
+.dashboard-card{
+background:#f8fafc;
+border:1px solid #e5e7eb;
+border-radius:10px;
+padding:25px;
+text-align:center;
+}
+
+.dashboard-card h3{
+margin-bottom:10px;
+}
+
+.dashboard-card p{
+font-size:14px;
+color:#555;
+margin-bottom:15px;
+}
+
+.dashboard-btn{
+background:#2563eb;
+color:white;
+border:none;
+padding:10px 18px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.dashboard-btn:hover{
+background:#1e40af;
+}
+
+@media(max-width:768px){
+
+.dashboard-grid{
+grid-template-columns:1fr;
+}
+
+}

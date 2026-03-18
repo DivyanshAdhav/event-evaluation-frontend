@@ -1,0 +1,95 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.participants-page {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  background: white;
+}
+
+.title {
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.participants-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.participant-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 14px 16px;
+  background: #fafafa;
+  gap: 12px;
+}
+
+.participant-info {
+  display: flex;
+  gap: 12px;
+  align-items: flex-start;
+  font-size: 15px;
+}
+
+.participant-index {
+  font-weight: bold;
+  color: #4f46e5;
+  min-width: 24px;
+  padding-top: 2px;
+}
+
+.participant-details {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.participant-name {
+  color: #222;
+  font-size: 15px;
+}
+
+.participant-sub {
+  color: #555;
+  font-size: 13px;
+}
+
+.evaluate-btn {
+  background: #4f46e5;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.evaluate-btn:hover {
+  background: #4338ca;
+}
+
+@media (max-width: 600px) {
+
+  .participants-page {
+    padding: 20px 10px;
+  }
+
+  .participant-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .evaluate-btn {
+    width: 100%;
+  }
+
+}

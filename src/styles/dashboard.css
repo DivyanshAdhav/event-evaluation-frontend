@@ -1,0 +1,83 @@
+/* Full page background */
+body{
+  margin:0;
+  font-family: Arial, Helvetica, sans-serif;
+  background:#f5f5f5;
+  display:flex;
+  justify-content:center;
+}
+
+/* Main mobile-like container */
+.dashboard-container{
+  width:380px;           /* fixed mobile width */
+  min-height:100vh;
+  background:white;
+  padding:20px;
+  box-shadow:0 0 15px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.dashboard-title{
+  text-align:center;
+  font-size:24px;
+  font-weight:bold;
+}
+
+.dashboard-subtitle{
+  text-align:center;
+  color:#777;
+  margin-bottom:20px;
+}
+
+/* Logout button */
+.logout-btn{
+  background:#e74c3c;
+  color:white;
+  border:none;
+  padding:8px 14px;
+  border-radius:6px;
+  cursor:pointer;
+  margin-bottom:20px;
+}
+
+/* Cards grid */
+.dashboard-grid{
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+}
+
+/* Card */
+/* .dashboard-card{
+  background:#f9f9f9;
+  border-radius:12px;
+  padding:25px;
+  text-align:center;
+  box-shadow:0 3px 10px rgba(0,0,0,0.08);
+  cursor:pointer;
+  transition:0.2s;
+}
+
+.dashboard-card:hover{
+  transform:translateY(-3px);
+} */
+
+.dashboard-card{
+cursor:pointer;
+transition:0.2s;
+}
+
+.dashboard-card:hover{
+transform:scale(1.05);
+}
+
+/* Icon */
+.dashboard-icon{
+  font-size:28px;
+  margin-bottom:10px;
+}
+
+/* Card text */
+.dashboard-text{
+  font-weight:600;
+}

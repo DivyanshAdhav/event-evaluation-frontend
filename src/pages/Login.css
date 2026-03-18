@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* PAGE */
+
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  padding: 20px;
+}
+
+/* CARD */
+
+.login-container {
+  width: 100%;
+  max-width: 520px;
+  background: white;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+}
+
+/* ── BANNER (top half — blue) ── */
+
+.login-banner {
+  background: linear-gradient(135deg, #1e40af, #3b82f6);
+  padding: 32px 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.banner-logo {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: white;
+  padding: 4px;
+  flex-shrink: 0;
+}
+
+.banner-text {
+  flex: 1;
+  text-align: center;
+  color: white;
+}
+
+.banner-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+.banner-sub {
+  font-size: 13px;
+  opacity: 0.85;
+  margin-bottom: 4px;
+}
+
+.banner-college {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+/* ── LOGIN FORM (bottom half — white) ── */
+
+.login-box {
+  padding: 36px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-title {
+  text-align: center;
+  margin-bottom: 24px;
+  font-size: 22px;
+  color: #1e3a8a;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.login-input {
+  padding: 12px 14px;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.login-input:focus {
+  border-color: #2563eb;
+}
+
+.login-button {
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 4px;
+}
+
+.login-button:hover {
+  background: #1e40af;
+}
+
+/* ── MOBILE ── */
+
+@media (max-width: 560px) {
+
+  .login-banner {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px 16px;
+  }
+
+  .banner-logo {
+    width: 64px;
+    height: 64px;
+  }
+
+  .banner-title {
+    font-size: 16px;
+  }
+
+  .banner-college {
+    font-size: 16px;
+  }
+
+  .login-box {
+    padding: 28px 24px;
+  }
+
+}
+/* ```
+
+--- */
+
+/* One more step — add the MSBTE logo
+
+Save your MSBTE logo image as:
+```
+src/assets/MSBTE-logo.png */

@@ -1,0 +1,46 @@
+.leaderboard-page{
+display:flex;
+justify-content:center;
+padding:30px;
+}
+
+.leaderboard-card{
+background:white;
+padding:25px;
+border-radius:10px;
+width:100%;
+max-width:500px;
+box-shadow:0 2px 10px rgba(0,0,0,0.1);
+}
+
+.title{
+margin-bottom:15px;
+}
+
+.event-select{
+width:100%;
+padding:8px;
+margin-bottom:20px;
+}
+
+.leaderboard-header,
+.leaderboard-row{
+display:grid;
+grid-template-columns:60px 1fr 80px;
+align-items:center;
+padding:10px;
+border-bottom:1px solid #eee;
+}
+
+.rank{
+font-weight:bold;
+color:#3b5bdb;
+}
+
+.name{
+padding-left:10px;
+}
+
+.score{
+text-align:right;
+}

@@ -1,0 +1,107 @@
+*{
+box-sizing:border-box;
+font-family:"Segoe UI",sans-serif;
+}
+
+/* PAGE */
+
+.add-coordinator-page{
+min-height:100vh;
+background:linear-gradient(135deg,#1e3a8a,#2563eb);
+padding:40px 20px;
+display:flex;
+flex-direction:column;
+align-items:center;
+gap:30px;
+}
+
+/* CONTAINERS */
+
+.add-coordinator-container,
+.existing-container{
+width:100%;
+max-width:900px;
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* TITLES */
+
+.title{
+text-align:center;
+margin-bottom:25px;
+}
+
+/* FORM */
+
+.form-grid{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+margin-bottom:20px;
+}
+
+.input{
+padding:10px;
+border:1px solid #ddd;
+border-radius:6px;
+}
+
+/* EVENTS */
+
+.event-list{
+display:flex;
+flex-direction:column;
+gap:10px;
+margin-bottom:20px;
+}
+
+.event-item{
+display:flex;
+align-items:center;
+gap:10px;
+padding:8px;
+border-radius:6px;
+background:#f8fafc;
+}
+
+/* BUTTON */
+
+.primary-btn{
+width:100%;
+padding:12px;
+background:#2563eb;
+color:white;
+border:none;
+border-radius:6px;
+cursor:pointer;
+}
+
+.primary-btn:hover{
+background:#1e40af;
+}
+
+/* COORDINATOR CARD */
+
+.coordinator-card{
+border:1px solid #e5e7eb;
+border-radius:8px;
+padding:15px;
+margin-bottom:15px;
+}
+
+.assigned-events{
+margin-top:10px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.form-grid{
+grid-template-columns:1fr;
+}
+
+}
